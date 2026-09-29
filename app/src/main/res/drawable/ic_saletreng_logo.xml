@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Teal Glow / Contour (#579F92) -->
+    <!-- Handle Outer -->
+    <path
+        android:pathData="M 18,22 L 28,22"
+        android:strokeColor="#579F92"
+        android:strokeWidth="12"
+        android:strokeLineCap="round" />
+
+    <!-- 'S' Basket Outer Contour -->
+    <path
+        android:pathData="M 78,26 L 40,26 A 9,9 0 0,0 40,44 L 72,44 A 9,9 0 0,1 72,62 L 38,62"
+        android:strokeColor="#579F92"
+        android:strokeWidth="20"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Left Wheel Outer -->
+    <path
+        android:pathData="M 43,78 m -11,0 a 11,11 0 1,0 22,0 a 11,11 0 1,0 -22,0"
+        android:fillColor="#579F92" />
+
+    <!-- Right Wheel Outer -->
+    <path
+        android:pathData="M 64,78 m -11,0 a 11,11 0 1,0 22,0 a 11,11 0 1,0 -22,0"
+        android:fillColor="#579F92" />
+
+
+    <!-- Inner White Core -->
+    <!-- Handle Core -->
+    <path
+        android:pathData="M 18,22 L 28,22"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- 'S' Basket White Core -->
+    <path
+        android:pathData="M 78,26 L 40,26 A 9,9 0 0,0 40,44 L 72,44 A 9,9 0 0,1 72,62 L 38,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Left Wheel Inner Core -->
+    <path
+        android:pathData="M 43,78 m -5.5,0 a 5.5,5.5 0 1,0 11,0 a 5.5,5.5 0 1,0 -11,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right Wheel Inner Core -->
+    <path
+        android:pathData="M 64,78 m -5.5,0 a 5.5,5.5 0 1,0 11,0 a 5.5,5.5 0 1,0 -11,0"
+        android:fillColor="#FFFFFF" />
+
+</vector>
